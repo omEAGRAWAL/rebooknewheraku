@@ -4,6 +4,7 @@
 # Edit log YYYY/MM/DD : Editor_Name : Edit details
 
 # 2022/02/22 : Vyasdev : Functions for database query and fetching book details from ISBN
+# 2022/02/22 : Vyasdev : Functions for INSERT, UPDATE and DELETE sql commands (Incomplete)
 
 <?php
 
@@ -33,6 +34,21 @@ function db_query($queries){# Argument: Array of queries
   return $response;
 }
 
+
+// TODO: Correct syntax error of following 3 functions
+// TODO: Undefined variables in following 3 functions
+function db_insert(table,data){
+  db_query(["INSERT INTO ".table." ("+keys+") VALUES (".values.");"]);
+}
+
+function db_delete(table,condition){
+  db_query(["DELETE FROM ".table."WHERE ".condition_str.";"]);
+}
+
+function db_edit(table,data){
+  
+  db_query(["UPDATE ".table." SET ".update_str." WHERE ".update_condition_str]);
+}
 
 # Fetch book details from isbn
 function get_book_details($isbn){
