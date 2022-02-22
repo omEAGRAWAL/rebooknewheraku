@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="Pictures/image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles/login.css">
-    <link rel="stylesheet" href="styles/rebookstyle.css">
+    <link rel="stylesheet" href="/styles/login.css">
+    <link rel="stylesheet" href="/styles/rebookstyle.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
     <title>ReBook</title>
