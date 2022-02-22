@@ -24,7 +24,8 @@
         <a style="float:right; cursor:pointer"  type="a" class="login" data-toggle="modal" data-target="#myModal">
             LogIn
         </a>
-        <a class="request" href="#book_category">Request</a>
+        <a class="donate" href="donate.php">Donate</a>
+        <a class="request" href="request.php">Request</a>
         
       
 
@@ -67,7 +68,7 @@
     
       <div id="contact_us" class="contact">
         <h2>Contact Us</h2>
-        <a href="mailto:dharunramsarathy@gmail.com">Mail address</a>
+        #<a href="mailto:dharunramsarathy@gmail.com">Mail address</a>
       </div>
     </footer> 
     <?php require 'validate.php' ?>
