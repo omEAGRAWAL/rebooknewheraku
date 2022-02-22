@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rebook/request</title>
-    <link rel="stylesheet" href="request.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="Styles/request.css">
+    <link rel="icon" type="image/x-icon" href="Pictures/favicon.ico">
 
 </head>
 <body>

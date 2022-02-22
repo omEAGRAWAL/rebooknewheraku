@@ -36,12 +36,6 @@ a {
 .donate{
   float: right;
 }
-
-
-  
-
-
-}
 #donate-button{
     text-align: center;
     
@@ -52,7 +46,7 @@ a {
 
 .st1part{
   
-  background-image: url("back1.jpg" );
+  background-image: url("" );
   background-color: burlywood;
   height: 500px;
   background-position: center;
@@ -67,37 +61,9 @@ a {
 
 
 }
-@media screens and (max-width:300px) {
-  body{
-   background-color: chartreuse ;
-width:100%;
-}
 
-  
-  }
 #pic1{
 width: 50%;
 height: 50%;
  
-}
-#camp1{
-
-
-  background-color: rgb(170, 5, 170)
-}
-.our_aim{
-  font-weight: bold;
-  font-size: 40px;
-  text-align: center;
-font-family: cursive;
-background-color: rgb(205, 162, 234);
-height: 50%;
-}
-#what_u_do{
-  font-weight: bold;
-  font-size: 40px;
-  text-align: center;
-font-family: cursive;
-background-color: rgb(98, 207, 122);
-
 }

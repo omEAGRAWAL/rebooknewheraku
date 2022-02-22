@@ -1,0 +1,11 @@
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+.h{
+    background-color: rgb(211, 67, 67);
+    
+width: 100%;
+    position: fixed;
+}

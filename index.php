@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="rebookstyle.css">
+    <link rel="icon" type="Pictures/image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/rebookstyle.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
     <title>ReBook</title>
@@ -19,21 +19,20 @@
 
       <nav>
 
-        <a class="active" href="index.html"><img style="width: 20px;" src="home.png" alt=""></a>
+        <a class="active" href="index.php"><img style="width: 20px;" src="home.png" alt=""></a>
       
         <a style="float:right; cursor:pointer"  type="a" class="login" data-toggle="modal" data-target="#myModal">
             LogIn
         </a>
-        <a class="donate" href="donate.php">Donate</a>
-        <a class="request" href="request.php">Request</a>
-        
+        <a class="request" href="PHP/request.php">Request</a>
+        <a class="donate" href="PHP/donate.php">Donate</a>
       
 
       </nav>
     </div>
 
     <div class="st1part">
-      <p id="1stline">there are  more than 30,00,000 orphans in india! </p>
+      <p id="1stline">  more than 30,00,000 orphans in india </p>
       <p id="2ndline">your one book will help three students</p>
       <p id="3rdline"> sharing is carrying</p>
       <p id="4thline">join with us to bridge this gap</p>
@@ -42,11 +41,11 @@
 
 
 
-    <a href="camp1.html">
+    <a href="HTML/camp1.html">
       <div id="campaign1">
-        <img  id="pic1" src="img1.jpg" alt="">
+        <img  id="pic1" src="Pictures/img1.jpg" alt="">
         <p>donate your childs book to them</p>
-        <a href="donatebook.html">
+        <a href="PHP/donate.php">
           <button id="donate-button">donate now</button>
         </a>
         <p id="elementimg1"></p>
@@ -56,22 +55,14 @@
 
       </div>
     </a>
-
-<a href=""></a>
-
-
-
-
-
-
     <footer>
     
       <div id="contact_us" class="contact">
         <h2>Contact Us</h2>
-        #<a href="mailto:dharunramsarathy@gmail.com">Mail address</a>
+        <a href="mailto:dharunramsarathy@gmail.com">Mail address</a>
       </div>
     </footer> 
-    <?php require 'validate.php' ?>
+    <?php require 'PHP/validate.php' ?>
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
           <div class="modal-content clearfix">
