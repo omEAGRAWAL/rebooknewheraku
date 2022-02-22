@@ -36,7 +36,7 @@ input[type=text], select, textarea{
 
   /* Style the reset button */
   input[type=reset] {
-    background-color: #9c04aa;
+    background-color:#82069b;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -47,7 +47,7 @@ input[type=text], select, textarea{
   /* Style the container */
   .container {
     border-radius: 5px;
-    background-color: 0de0e0;
+    background-color: #0de0e0;
     padding: 4vw;
     padding-top: 0px;
   }
