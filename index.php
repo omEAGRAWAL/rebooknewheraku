@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" type="Pictures/image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles/login.css">
-    <link rel="stylesheet" href="styles/rebookstyle.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="rebookstyle.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
     <title>ReBook</title>
@@ -24,8 +24,8 @@
         <a style="float:right; cursor:pointer"  type="a" class="login" data-toggle="modal" data-target="#myModal">
             LogIn
         </a>
-        <a class="request" href="PHP/request.php">Request</a>
-        <a class="donate" href="PHP/donate.php">Donate</a>
+        <a class="request" href="request.php">Request</a>
+        <a class="donate" href="donate.php">Donate</a>
       
 
       </nav>
@@ -41,11 +41,11 @@
 
 
 
-    <a href="HTML/camp1.html">
+    <a href="camp1.html">
       <div id="campaign1">
-        <img  id="pic1" src="Pictures/img1.jpg" alt="">
+        <img  id="pic1" src="img1.jpg" alt="">
         <p>donate your childs book to them</p>
-        <a href="PHP/donate.php">
+        <a href="donate.php">
           <button id="donate-button">donate now</button>
         </a>
         <p id="elementimg1"></p>
@@ -62,7 +62,7 @@
         <a href="mailto:dharunramsarathy@gmail.com">Mail address</a>
       </div>
     </footer> 
-    <?php require 'PHP/validate.php' ?>
+    <?php require "validate.php" ?>
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
           <div class="modal-content clearfix">
@@ -86,7 +86,7 @@
                   <a href="" class="forgot-pass">Forgot Password?</a>
                   <button class="btn">Login</button>
                 </form>
-                  <a class="sign_up" href="#">sign up</a>
+                  <a class="sign_up" href="signup.php">sign up</a>
               </div>
           </div>
       </div>
