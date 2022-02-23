@@ -16,16 +16,14 @@ function pg_connection_string_from_database_url() {
 }
 
 
-# Make a set of db queries
-function db_query($queries){# Argument: Array of queries
+# Make a db query
+function db_query($q){# Argument: Array of queries
   
   # Establish the connection
   $pg_conn = pg_connect(pg_connection_string_from_database_url());
   
-  foreach ($queries as $query){
-    # Make a query and get response
-    $response = pg_query($pg_conn,$query);
-  }
+  # Make the query and get response
+  $response = pg_query($pg_conn,$q);
   
   # Close the connection
   pg_close();
