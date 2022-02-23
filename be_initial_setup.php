@@ -8,8 +8,8 @@
 # 2022/02/22 : Vyasdev : Initial setup functon (Need changes)
 
 
-ob_start();
-session_start();
+//ob_start();
+//session_start();
 
 $logged_in=false;
 
