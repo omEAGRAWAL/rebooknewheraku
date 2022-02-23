@@ -7,8 +7,6 @@
 # 2022/02/22 : Vyasdev : Created the file
 
 
-@require "be_dependencies.php";
-
 function new_request($data){
   
 }
