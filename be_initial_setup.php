@@ -15,7 +15,7 @@ $logged_in=false;
 
 require "be_dependencies.php";
 
-function intial_setup(){
+function initial_setup(){
   
   $db_queries = [
     
