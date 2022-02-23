@@ -5,15 +5,15 @@
 include "be.php";
 include "be_initial_setup.php";
 
-echo "Hello world!\n";
+print("Hello world!<br>");
 
 
-echo db_query("SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';");
+print(serialize(db_query("SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';")));
 
-echo "\n";
+print("<br>");
 
 initial_setup();
 
-echo db_query("SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';");
+print(db_query("SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';")[0]->tablename);
 
 ?>

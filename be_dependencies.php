@@ -28,7 +28,13 @@ function db_query($q){# Argument: Array of queries
   # Close the connection
   pg_close();
   
-  return pg_fetch_array($response);
+  $result=[];
+  
+  while ($data = pg_fetch_object($response)) {
+    array_push($result,$data);
+  }
+  
+  return $result;
 }
 
 
