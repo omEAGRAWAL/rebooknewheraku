@@ -1,10 +1,11 @@
+<?php
+
 # backend_main
 # Created on : 2022 Feb 22
 
 # Change log YYYY/MM/DD : Contributor : Changes details
 # 2022/02/22 : Vyasdev : Created the file
 
-<?php
 
 @require "be_dependencies.php";
 
