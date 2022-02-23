@@ -21,7 +21,10 @@
     <nav>
       <li> <a class="active" href="index.html">
           <img style="width: 20px;" src="home.png" alt=""></a></li>
-      <li><a class="login" id="login" href="login.html" ; target="_parent">LogIn</a></li>
+          <li> <a  id="login" style="float:right; cursor:pointer"  type="a" class="login" data-toggle="modal" data-target="#myModal">
+            LogIn
+        </a></li>
+      
       <li><a class="request" href="#book_category">Request campaign</a>
     </nav>
   </div>
@@ -48,7 +51,7 @@
     <h2>camp1</h2>
       <img id="pic1" src="po1.jpg" alt="">
       <p id="camp1p1">donate your childs book to them</p>
-        <a class="push_button red" id="buttoncamp1" href="donatebook.html">DONATE BOOK</a>
+        <a class="push_button red" id="buttoncamp1" href="donatebook.php">DONATE BOOK</a>
       </a>
     </div>
 
