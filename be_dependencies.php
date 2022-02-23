@@ -35,19 +35,38 @@ function db_query($queries){# Argument: Array of queries
 }
 
 
-// TODO: Correct syntax error of following 3 functions
-// TODO: Undefined variables in following 3 functions
-function db_insert(table,data){
-  db_query(["INSERT INTO ".table." ("+keys+") VALUES (".values.");"]);
-}
-
-function db_delete(table,condition){
-  db_query(["DELETE FROM ".table."WHERE ".condition_str.";"]);
-}
-
-function db_edit(table,data){
+// TODO: Complete db_edit()
+// TODO: Correct logical error of following 3 functions
+function db_insert($table,$data){
   
-  db_query(["UPDATE ".table." SET ".update_str." WHERE ".update_condition_str]);
+  $data_keys=array_keys($data);
+  $keys="";
+  $values="";
+  
+  for($i=0;$i<count($data_keys);$i++){
+    $keys=$keys.",".$data_keys[i];
+    $values=$values.",".$data[$data_keys[i]];
+  }
+  
+  db_query(["INSERT INTO ".$table." ("+$keys+") VALUES (".$values.");"]);
+  
+}
+
+function db_delete($table,$condition){
+  
+  $data_keys=array_keys($data);
+  
+  for($i=0;$i<count($data_keys);$i++){
+    $condition_str=$condition_str.",".$data_keys[i]."=".$data[$data_keys[i]];
+  }
+  
+  db_query(["DELETE FROM ".$table."WHERE ".$condition_str.";"]);
+
+}
+
+function db_edit($table,$data){
+  
+  db_query(["UPDATE ".$table." SET ".$update_str." WHERE ".$update_condition_str]);
 }
 
 # Fetch book details from isbn
