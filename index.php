@@ -25,7 +25,7 @@
             LogIn
         </a></li>
       
-      <li><a class="request" href="#book_category">Request campaign</a>
+      <li><a class="request" href="request.php">Request campaign</a>
     </nav>
   </div>
   </header>
@@ -34,7 +34,7 @@
       <li> <a class="active" href="index.html">
           <img style="width: 20px;" src="home.png" alt=""></a></li>
       <li><a class="login" id="login" href="login.html" ; target="_parent">LogIn</a></li>
-      <li><a class="request" href="#book_category">Request campaign</a>
+      <li><a class="request" href="request.php">Request campaign</a>
     </nav>
   </div>
   <div class="st1part">
