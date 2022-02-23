@@ -62,7 +62,7 @@
         <a href="mailto:dharunramsarathy@gmail.com">Mail address</a>
       </div>
     </footer> 
-    <?php require 'PHP/validate.php' ?>
+    <?php require "validate.php" ?>
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
           <div class="modal-content clearfix">
