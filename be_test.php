@@ -8,12 +8,12 @@ include "be_initial_setup.php";
 echo "Hello world!";
 
 
-echo serialize(db_query(["SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"])[0]);
+echo serialize(db_query("SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"));
 
 echo "\n";
 
 initial_setup();
 
-echo serialize(db_query(["SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"])[0]);
+echo serialize(db_query("SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';"));
 
 ?>
