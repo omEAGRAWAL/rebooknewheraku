@@ -5,7 +5,7 @@
 
 # 2022/02/22 : Vyasdev : Initial setup functon (Need changes)
 
-<!DOCTYPE html>
+<!--DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,7 +19,7 @@
   <body>
     <div id="web_terminal"></div>
   </body>
-</html>
+</html-->
 
 <?php
 
