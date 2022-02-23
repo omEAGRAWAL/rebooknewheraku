@@ -47,7 +47,7 @@
 
 
   <div id="camp1div">
-    <a href="camp1.html"></a>
+    <a href="camp1.html">
     <h2>camp1</h2>
       <img id="pic1" src="po1.jpg" alt="">
       <p id="camp1p1">donate your childs book to them</p>
