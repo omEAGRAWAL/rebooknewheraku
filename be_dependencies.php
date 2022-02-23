@@ -31,7 +31,7 @@ function db_query($q){# Argument: Array of queries
   $result=[];
   
   while ($data = pg_fetch_row($response)) {
-    array_push($result,$data["tablename"]);
+    array_push($result,$data->tablename);
   }
   
   return $result;
