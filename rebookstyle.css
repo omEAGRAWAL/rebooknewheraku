@@ -1,53 +1,56 @@
+body{
+
+padding: 0%;
+margin: 0mm;
+background-color: rgb(211, 231, 191);
+}
+p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+h2{
+  margin-top: 0%;
+  margin-bottom: 3px;
+}
+
+header{
+  width: 100%;
+  position: fixed;
+}
 nav {
+ 
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow:auto;
-  background-color: #333;
+  background-color: rgb(47, 44, 44);
   font-family: cursive;
 }
-
-a{
-  float: left;
-  border-right: solid #bbb;
-}
-
-
-
-a {
-  
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 3px 10px;
-  text-decoration: none;
-}
+li{display: inline;
+  font-size: 20px;
+  color:rgb(187, 187, 68) ;
+  padding: 3px;}
 .active{
+  padding: 4px;
   background-color: #04AA6D;
-
 }
 .login {
+  padding: 4px;
+  color: aliceblue;
   float: right;
   background-color: #04AA6D;
 }
 .request{
+  background-color: rgb(82, 79, 79);
+  color: beige;
+  padding: 4px;
   float: right;
 }
-.donate{
-  float: right;
-}
-#donate-button{
-    text-align: center;
-    
 
-
-}
-
-
+        /*----------------------header---------------------*/
 .st1part{
-  
-  background-image: url("" );
-  background-color: burlywood;
+  background-image: url("back1.jpg" );
+  background-color: rgb(229, 200, 162);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,13 +60,95 @@ a {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
+}
+#st1line{
+margin-top: 0px ;
+}
+
+/*---------camp1-----------------------------*/
+
+#camp1div{
+/*background-image: url("po1.jpg");*/
+background-color: rgb(187, 204, 170);
+  text-align: center;
+font-size: 25px;
+padding-bottom: 3px;
+
+}
+#pic1{
+
+width:fit-content;
+height: auto;
+}
+#buttoncamp1{
+margin-right: auto;
+margin-left: auto;
+}
 
 
+
+/*---------------------------------leap-------------------*/
+
+#leapdiv{
+text-align: center;
+background-color: rgb(179, 201, 201);
+font-size: 25px;
+padding-bottom: 4px;
+}
+#leapline{
+  margin-bottom: 0%;
+margin-top: 0%;
 
 }
 
-#pic1{
-width: 50%;
+
+#buttonleap{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 0px;
+  padding-bottom: 3px;
+}
+
+
+/*---------------------------camp2-------------------------*/
+
+
+
+
+
+
+
+/*-----------------------our aim--------------------------------*/
+
+#what_we_h3{
+  font-family: cursive;
+}
+#what_we{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+
+
+
+
+.our_aim{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+font-family: cursive;
+background-color: rgb(205, 162, 234);
 height: 50%;
- 
+}
+
+/*-----------------------what u do-----------------------*/
+#what_u_do{
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+font-family: cursive;
+background-color: rgb(98, 207, 122);
 }
