@@ -15,7 +15,7 @@ $logged_in=false;
 
 require "be_dependencies.php";
 
-function intial_setup(){
+function initial_setup(){
   
   $db_queries = [
     
@@ -58,7 +58,8 @@ function intial_setup(){
     
   ];
   
-  db_query($db_queries);
+  foreach($db_queries as $q)
+    db_query($q);
   
 }
 

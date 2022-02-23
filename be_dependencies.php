@@ -16,23 +16,19 @@ function pg_connection_string_from_database_url() {
 }
 
 
-# Make a set of db queries
-function db_query($queries){# Argument: Array of queries
+# Make a db query
+function db_query($q){# Argument: Array of queries
   
   # Establish the connection
   $pg_conn = pg_connect(pg_connection_string_from_database_url());
   
-  $response=array();
-  
-  foreach ($queries as $query){
-    # Make a query and get response
-    array_push($response , pg_query($pg_conn,$query));
-  }
+  # Make the query and get response
+  $response = pg_query($pg_conn,$q);
   
   # Close the connection
   pg_close();
   
-  return $response;
+  return pg_fetch_array($response);
 }
 
 
@@ -49,7 +45,7 @@ function db_insert($table,$data){
     $values=$values.",".$data[$data_keys[i]];
   }
   
-  db_query(["INSERT INTO ".$table." ("+$keys+") VALUES (".$values.");"]);
+  db_query("INSERT INTO ".$table." ("+$keys+") VALUES (".$values.");");
   
 }
 
@@ -61,13 +57,13 @@ function db_delete($table,$condition){
     $condition_str=$condition_str.",".$data_keys[i]."=".$data[$data_keys[i]];
   }
   
-  db_query(["DELETE FROM ".$table."WHERE ".$condition_str.";"]);
+  db_query("DELETE FROM ".$table."WHERE ".$condition_str.";");
 
 }
 
 function db_edit($table,$data){
   
-  db_query(["UPDATE ".$table." SET ".$update_str." WHERE ".$update_condition_str]);
+  db_query("UPDATE ".$table." SET ".$update_str." WHERE ".$update_condition_str);
 }
 
 # Fetch book details from isbn
