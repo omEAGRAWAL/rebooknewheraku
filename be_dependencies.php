@@ -1,3 +1,5 @@
+<?php
+
 # Backend_dependencies
 # Created on : 2022 Feb 22
 
@@ -6,7 +8,6 @@
 # 2022/02/22 : Vyasdev : Functions for database query and fetching book details from ISBN
 # 2022/02/22 : Vyasdev : Functions for INSERT, UPDATE and DELETE sql commands (Incomplete)
 
-<?php
 
 # This function reads your DATABASE_URL config var and returns a connection
 function pg_connection_string_from_database_url() {

@@ -1,3 +1,5 @@
+<?php
+
 # Intial_setup
 # Created on : 2022 Feb 22
 
@@ -5,23 +7,6 @@
 
 # 2022/02/22 : Vyasdev : Initial setup functon (Need changes)
 
-<!--DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Rebook admin interface</title>
-    
-  </head>
-  
-  <body>
-    <div id="web_terminal"></div>
-  </body>
-</html-->
-
-<?php
 
 ob_start();
 session_start();
