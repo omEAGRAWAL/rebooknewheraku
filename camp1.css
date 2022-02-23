@@ -1,11 +1,103 @@
+
 body{
-    margin: 0%;
-    box-sizing: border-box;
-    
+    background-color: #FFF1F1;
 }
-.h{
-    background-color: rgb(211, 67, 67);
-    
-width: 100%;
-    position: fixed;
+
+h1{
+    font-size: 40px;
+    font-family: 'Nova Flat', Courier, monospace;
+    color: #4F0E0E;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.first1 {
+    height: 650px;
+}
+
+.parabox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.para1{
+    font-size: 20px;
+    font-family: 'Merienda', Tahoma, Geneva, Verdana, sans-serif;
+    color: #BB8760;
+}
+
+.donate{
+    text-align: center;
+}
+
+.money-btn{
+    background-color: rgba(54, 20, 40, 0.897);
+    border-color: white;
+    text-align: center;
+    cursor: pointer;
+    color: #FFDADA;
+    font-family: 'Nova Flat', Courier, monospace;
+}
+.money-btn:hover{
+    background-color: #FFDADA;
+    border-color: #ffc6c6;
+    color: #4F0E0E;
+    font-family: 'Nova Flat', Courier, monospace;
+}
+.books-btn{
+    background-color:#FFF1F1;
+    border-color: #4F0E0E;
+    text-align: center;
+    cursor: pointer;
+    color: #4F0E0E;
+    font-family: 'Nova Flat', Courier, monospace;
+}
+.books-btn:hover{
+    color: #FFDADA;
+    background-color: #BB8760;
+    border-color: #BB8760;    
+    font-family: 'Nova Flat', Courier, monospace;
+}
+
+.img-row {
+    width: 600px;
+}
+
+.lowerimgs{
+    padding-top: 12px;
+}
+
+
+footer{
+    margin-top: 12px;
+    padding: 12px 0px 6px 12px;
+    background-color: #361428e5;
+}
+
+
+.footerbox{
+
+    list-style-type: none;
+    text-align: center;
+}
+.footerbox a{
+    color: #FFF1F1;
+    margin: 0px;
+    padding: 16px 0 16px 0px;
+
+}
+
+.footerbox li{
+
+    display: inline-block;
+    padding: 16px 32px 16px 32px;
+}
+
+
+
+.footer-text{
+    color: rgb(212, 230, 255);
+    font-size: 24px;
 }
