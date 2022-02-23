@@ -28,7 +28,7 @@ function db_query($q){# Argument: Array of queries
   # Close the connection
   pg_close();
   
-  return pg_fetch_assoc($response);
+  return pg_fetch_array($response);
 }
 
 
