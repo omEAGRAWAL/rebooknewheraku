@@ -32,6 +32,7 @@
     </div>
 
     <div class="st1part">
+      <p color="red">[The website is still in development phase]</p>
       <p id="1stline">  more than 30,00,000 orphans in india </p>
       <p id="2ndline">your one book will help three students</p>
       <p id="3rdline"> sharing is carrying</p>
