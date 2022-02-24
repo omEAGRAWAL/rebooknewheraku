@@ -15,82 +15,52 @@ function pg_connection_string_from_database_url() {
   return "user=$user password=$pass host=$host dbname=" . substr($path, 1); # <- you may want to add sslmode=require there too
 }
 
-
 # Make a db query
-function db_query($q){# Argument: Array of queries
-  
+function db_query($q){
   # Establish the connection
   $pg_conn = pg_connect(pg_connection_string_from_database_url());
-  
   # Make the query and get response
   $response = pg_query($pg_conn,$q);
-  
   # Close the connection
   pg_close();
-  
-  $result=[];
-  
-  while ($data = pg_fetch_object($response)) {
+  $result=[];# To store result rows
+  while ($data = pg_fetch_object($response))
     array_push($result,$data);
-  }
-  
   return $result;
 }
 
-
-// TODO: Complete db_edit()
-// TODO: Correct logical error of following 3 functions
+# SQL INSERT
 function db_insert($table,$data){
-  
   $data_keys=array_keys($data);
   $keys="";
   $values="";
-  
   for($i=0;$i<count($data_keys);$i++){
     $keys=$keys.",".$data_keys[i];
-    $values=$values.",".$data[$data_keys[i]];
+    $values=$values.","."'".$data[$data_keys[i]]."'";
   }
-  
+  # To remove comma at beginning of string
+  $keys=substr($keys,1);
+  $values=substr($values,1);
   db_query("INSERT INTO ".$table." ("+$keys+") VALUES (".$values.");");
-  
 }
 
+# SQL DELETE
 function db_delete($table,$condition){
-  
   $data_keys=array_keys($data);
-  
-  for($i=0;$i<count($data_keys);$i++){
-    $condition_str=$condition_str.",".$data_keys[i]."=".$data[$data_keys[i]];
-  }
-  
+  for($i=0;$i<count($data_keys);$i++)
+    $condition_str=$condition_str.",".$data_keys[i]."="."'".$data[$data_keys[i]]."'";
+  $condition_str=substr($condition_str,1);
   db_query("DELETE FROM ".$table."WHERE ".$condition_str.";");
-
 }
 
+// TODO: Complete db_edit()
+# SQL UPDATE
 function db_edit($table,$data){
-  
   db_query("UPDATE ".$table." SET ".$update_str." WHERE ".$update_condition_str);
 }
 
 # Fetch book details from isbn
 function get_book_details($isbn){
   return file_get_contents('https://www.googleapis.com/books/v1/volumes?q='.$isbn.'+isbn');
-  //$json = json_decode($str, true);
-  //echo '<pre>' . print_r($json, true) . '</pre>';
 }
-
-/*
-# Reference
-# Generate password hash
-function hash($password){
-  password_hash($password, PASSWORD_DEFAULT);
-}
-# Check password
-function verify_pw($password, $pw_hash){
-  return password_verify($password, $pw_hash);
-  # True -- Correct pw
-  # False -- Wrong pw
-}
-*/
-
 ?>
