@@ -2,7 +2,7 @@ body{
 
 padding: 0%;
 margin: 0mm;
-background-color: rgb(211, 231, 191);
+background-color: rgb(229, 240, 218);
 }
 p{
   margin-top: 15px;
@@ -51,7 +51,8 @@ li{display: inline;
 .st1part{
   background-image: url("back1.jpg" );
   background-color: rgb(229, 200, 162);
-  height: 500px;
+  height: 500px;;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,7 +78,7 @@ padding-bottom: 3px;
 }
 #pic1{
 
-width:fit-content;
+
 height: auto;
 }
 #buttoncamp1{
@@ -94,6 +95,8 @@ text-align: center;
 background-color: rgb(179, 201, 201);
 font-size: 25px;
 padding-bottom: 4px;
+position: relative;
+
 }
 #leapline{
   margin-bottom: 0%;
@@ -151,4 +154,34 @@ height: 50%;
   text-align: center;
 font-family: cursive;
 background-color: rgb(98, 207, 122);
+}
+/*------------------footer--------------*/
+
+
+
+
+
+
+/*-------------------------------------------*/
+@media only screen and (max-width: 700px) {
+.st1part{
+  width: 700px;
+  height:500px;
+}
+#camp1div{
+width: 700px;
+
+
+}
+#leapdiv{
+width: 700px; ;
+
+}
+#what_we{
+width: 700px;
+}
+#what_u_do{
+
+  width: 700px;
+}
 }
