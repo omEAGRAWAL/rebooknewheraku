@@ -1,12 +1,13 @@
 h1{
-  text-align: center;
-  color: #82069b;
-}
-
-body{
-  color:#4c0de0;
-  background-color:#00ffff;
-}
+    text-align: center;
+    color: #ca802a;
+  }
+  
+  body{
+    color:#cfc4b2;
+    background-color:#ffbb00;
+  }
+  
 
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
