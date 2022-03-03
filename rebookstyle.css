@@ -2,7 +2,7 @@ body{
 
 padding: 0%;
 margin: 0mm;
-background-color: rgb(229, 240, 218);
+background-color: rgb(255, 255, 255);
 }
 p{
   margin-top: 15px;
@@ -26,7 +26,9 @@ nav {
   background-color: rgb(47, 44, 44);
   font-family: cursive;
 }
-li{display: inline;
+li{
+  display: inline;
+
   font-size: 20px;
   color:rgb(187, 187, 68) ;
   padding: 3px;}
@@ -50,7 +52,7 @@ li{display: inline;
         /*----------------------header---------------------*/
 .st1part{
   background-image: url("back1.jpg" );
-  background-color: rgb(229, 200, 162);
+  background-color: rgb(253, 251, 236);
   height: 500px;;
   width: 100%;
   background-position: center;
@@ -70,10 +72,10 @@ margin-top: 0px ;
 
 #camp1div{
 /*background-image: url("po1.jpg");*/
-background-color: rgb(187, 204, 170);
-  text-align: center;
+background-color: rgb(238, 223, 222);
 font-size: 25px;
 padding-bottom: 3px;
+text-align: center;
 
 }
 #pic1{
@@ -92,7 +94,7 @@ margin-left: auto;
 
 #leapdiv{
 text-align: center;
-background-color: rgb(179, 201, 201);
+background-color:rgb(238, 223, 222);
 font-size: 25px;
 padding-bottom: 4px;
 position: relative;
@@ -124,10 +126,12 @@ margin-top: 0%;
 
 /*-----------------------our aim--------------------------------*/
 
-#what_we_h3{
+#our_aimh3{
+  font-size: 32px;
   font-family: cursive;
 }
 #what_we{
+  background-color: rgb(238, 223, 222);
   margin-top: 10px;
   text-align: center;
   font-size: 30px;
@@ -138,23 +142,15 @@ margin-top: 0%;
 
 
 
-.our_aim{
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-font-family: cursive;
-background-color: rgb(205, 162, 234);
-height: 50%;
-}
-
 /*-----------------------what u do-----------------------*/
-#what_u_do{
+.our_aim{
   font-weight: bold;
   font-size: 40px;
   text-align: center;
 font-family: cursive;
-background-color: rgb(98, 207, 122);
-}
+
+text-align: center;
+background-color: rgb(238, 223, 222);
 /*------------------footer--------------*/
 
 
@@ -180,7 +176,7 @@ width: 700px; ;
 #what_we{
 width: 700px;
 }
-#what_u_do{
+#our_aim{
 
   width: 700px;
 }
