@@ -48,17 +48,16 @@ li{
   padding: 4px;
   float: right;
 }
-
-        /*----------------------header---------------------*/
-.st1part{
-
-
-  
-}
-
+/*------------------------------------------*/
 #front1{
   width: 100%;
 }
+@media only screen and (max-width: 500px) {
+
+#front1{
+width: 500px;}}
+
+
 /*---------camp1-----------------------------*/
 
 #camp1div{
@@ -150,18 +149,15 @@ text-align: center;
 
 
 /*-------------------------------------------*/
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
 .st1part{
-  width: 700px;
+  width: 500px;
   height:500px;
 }
 #camp1div{
-width: 700px;
+width: 500px;
 
 
 }
 #leapdiv{
-width: 700px; ;
-
-}
-#_ai
+width: 500px; }}
