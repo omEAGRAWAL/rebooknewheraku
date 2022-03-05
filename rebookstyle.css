@@ -1,69 +1,167 @@
+body{
+
+padding: 0%;
+margin: 0mm;
+background-color: rgb(255, 255, 255);
+}
+p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+h2{
+  margin-top: 0%;
+  margin-bottom: 3px;
+}
+
+header{
+  width: 100%;
+  position: fixed;
+}
 nav {
+ 
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow:auto;
-  background-color: #333;
+  background-color: rgb(47, 44, 44);
   font-family: cursive;
 }
+li{
+  display: inline;
 
-a{
-  float: left;
-  border-right: solid #bbb;
-}
-
-
-
-a {
-  
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 3px 10px;
-  text-decoration: none;
-}
+  font-size: 20px;
+  color:rgb(187, 187, 68) ;
+  padding: 3px;}
 .active{
+  padding: 4px;
   background-color: #04AA6D;
-
 }
 .login {
+  padding: 4px;
+  color: aliceblue;
   float: right;
   background-color: #04AA6D;
 }
 .request{
+  background-color: rgb(82, 79, 79);
+  color: beige;
+  padding: 4px;
   float: right;
 }
-.donate{
-  float: right;
-}
-#donate-button{
-    text-align: center;
-    
 
-
-}
-
-
+        /*----------------------header---------------------*/
 .st1part{
+
+
   
-  background-image: url("" );
-  background-color: burlywood;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  font-family: cursive;
-  font-size: 25px;
-  text-align: center;
-  font-weight: bold;
-
-
-
 }
 
+#front1{
+  width: 100%;
+}
+/*---------camp1-----------------------------*/
+
+#camp1div{
+/*background-image: url("po1.jpg");*/
+margin-top: auto;
+font-size: 25px;
+padding-bottom: 3px;
+text-align: center;
+
+}
 #pic1{
-width: 50%;
-height: 50%;
- 
+
+
+height: auto;
 }
+#buttoncamp1{
+margin-right: auto;
+margin-left: auto;
+}
+
+
+
+/*---------------------------------leap-------------------*/
+
+#leapdiv{
+text-align: center;
+
+font-size: 25px;
+padding-bottom: 4px;
+position: relative;
+
+}
+#leapline{
+  margin-bottom: 0%;
+margin-top: 0%;
+
+}
+
+
+#buttonleap{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 0px;
+  padding-bottom: 3px;
+}
+
+
+/*---------------------------camp2-------------------------*/
+
+
+
+
+
+
+
+/*-----------------------our aim--------------------------------*/
+
+#our_aimh3{
+  font-size: 32px;
+  font-family: cursive;
+}
+#what_we{
+  
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+
+
+
+
+/*-----------------------what u do-----------------------*/
+.our_aim{
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+font-family: cursive;
+
+text-align: center;
+}
+/*------------------footer--------------*/
+
+
+
+
+
+
+/*-------------------------------------------*/
+@media only screen and (max-width: 700px) {
+.st1part{
+  width: 700px;
+  height:500px;
+}
+#camp1div{
+width: 700px;
+
+
+}
+#leapdiv{
+width: 700px; ;
+
+}
+#_ai
