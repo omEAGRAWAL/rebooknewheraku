@@ -19,7 +19,7 @@
   <header>
   <div id="header_content" class="header">
     <nav>
-      <li> <a class="active" href="index.html">
+      <li> <a class="active" href="index.php">
           <img style="width: 20px;" src="home.png" alt=""></a></li>
           <li> <a  id="login" style="float:right; cursor:pointer"  type="a" class="login" data-toggle="modal" data-target="#myModal">
             LogIn
@@ -37,12 +37,11 @@
       <li><a class="request" href="request.php">Request campaign</a>
     </nav>
   </div>
+
   <div class="st1part">
-    <p id="st1line"> more than 30,00,000 orphans in india </p>
-    <p id="nd2line">your one book will help three students</p>
-    <p id=" rd3line"> sharing is carrying</p>
-    <p id="th4line">join with us to bridge this gap</p>
+    <img id="front1" src="front1.png" alt="">
   </div>
+
 
 
 
