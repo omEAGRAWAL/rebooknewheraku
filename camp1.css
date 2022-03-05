@@ -73,7 +73,7 @@ img {
 }
 
 .lowerimgs{
-    padding-top: 12px;
+    margin-top: 12px;
 }
 
 
@@ -114,7 +114,7 @@ footer{
 
     .img-row{
         width: 90%;
-        padding-top: 0.75%;
+        margin-top: 0.75%;
     }
     .first1{
         width: 100%;
@@ -126,7 +126,7 @@ footer{
 
     .img-row{
         width: 75%;
-        padding-top: 1.5%;
+        margin-top: 1.5%;
     }
     .lowerimgs{
         text-align: center;
