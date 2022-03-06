@@ -150,17 +150,7 @@ text-align: center;
 
 /*-------------------------------------------*/
 @media only screen and (max-width: 400px) {
-.st1part{
-  width: 300px;
-  height:500px;
-}
-#camp1div{
-width: 300px;
 
-
-}
-#leapdiv{
-width: 300px; }
 #pic1{
   width: 100%;
 }
