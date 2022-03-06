@@ -30,7 +30,7 @@ li{
   display: inline;
 
   font-size: 20px;
-  color:rgb(187, 187, 68) ;
+  color:rgb(233, 233, 224) ;
   padding: 3px;}
 .active{
   padding: 4px;
@@ -50,63 +50,71 @@ li{
 }
 /*------------------------------------------*/
 #front1{
+  margin-top: 30px;
   width: 100%;
-}
+  }
 @media only screen and (max-width: 500px) {
 
 #front1{
 width: 500px;}}
 
 
+@media only screen and (min-width: 400px) {
+
+#row1{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+
+}}
+
 /*---------camp1-----------------------------*/
 
-#camp1div{
+
+.camp{
 /*background-image: url("po1.jpg");*/
-margin-top: auto;
+width: fit-content;
 font-size: 25px;
-padding-bottom: 3px;
+border-style:dashed;
+padding: 5px;
+border-width: 1px;
+margin: auto;
 text-align: center;
 
 }
-#pic1{
-
-
+.image{
 height: auto;
 }
-#buttoncamp1{
+#button{
 margin-right: auto;
 margin-left: auto;
 }
 
 
 
-/*---------------------------------leap-------------------*/
+/*---------------------------------leap-------------------
 
 #leapdiv{
 text-align: center;
-
+width: fit-content;
 font-size: 25px;
-padding-bottom: 4px;
-position: relative;
+border-style: dashed;
+margin: auto;
 
+border-width: 1px;
+border-image: auto;
+padding:5px;
 }
-#leapline{
-  margin-bottom: 0%;
-margin-top: 0%;
 
-}
 
 
 #buttonleap{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0%;
-  margin-bottom: 0px;
-  padding-bottom: 3px;
+ margin-right: auto;
+margin-left: auto;
 }
 
 
-/*---------------------------camp2-------------------------*/
+---------------------------camp2-------------------------*/
 
 
 
@@ -159,7 +167,3 @@ text-align: center;
 }
 #front1{
   width: 100%;}}
-  }
-
-
-

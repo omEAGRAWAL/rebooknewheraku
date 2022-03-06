@@ -43,32 +43,30 @@
   </div>
 
 
+  <div id="row1">
+
+<div id="camp1div" class="camp" >
+  <a href="camp1.html"></a>
+  <h2>camp1</h2>
+    <img id="pic1" src="po1.jpg" alt="">
+    <p id="camp1p1" class="image">donate your childs book to them</p>
+      <a class="push_button red" id="button" href="donatebook.html">DONATE BOOK</a>
+    </a>
+  </div>
 
 
-  <div id="camp1div">
-    <a href="camp1.html">
+  
+
+  <div id="camp1div" class="camp" >
+    <a href="leap.html"></a>
     <h2>camp1</h2>
-      <img id="pic1" src="po1.jpg" alt="">
-      <p id="camp1p1">donate your childs book to them</p>
-        <a class="push_button red" id="buttoncamp1" href="donatebook.php">DONATE BOOK</a>
+      <img id="pic1" src="po3.jpg" alt="">
+      <p id="camp1p1" class="image">we are helping them to crack jee</p>
+        <a class="push_button red" id="button" href="donatebook.html">DONATE  BOOK</a>
       </a>
     </div>
-
-
-    <br>
-
-    <div id="leapdiv">
-      <a href="leap.html">
-        <h2 id="leaph">leap</h2>
-        <img class="leapimg" src="po3.jpg" alt="">
-        <p  id="leapline">we are helping poor students to crack jee</p>
-      </a>
-      <br>
-      <a id="buttonleap" class="push_button blue" href="donatebook.php">Donate JEE Book</a>
-
-    </div>
-
-
+  
+</div>
 
     
     <div id="what_we">
