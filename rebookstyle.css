@@ -162,11 +162,14 @@ width: 300px;
 #leapdiv{
 width: 300px; }
 #pic1{
-  width: 300px;
+  width: 100%;
 }
 .leapimg{
-  width: 300px;
-}}
+  width: 100%;
+}
+#front1{
+  width: 100%;}}
+  }
 
 
 
