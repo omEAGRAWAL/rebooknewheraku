@@ -60,7 +60,7 @@
     <div id="leapdiv">
       <a href="leap.html">
         <h2 id="leaph">leap</h2>
-        <img src="po3.jpg" alt="">
+        <img class="leapimg" src="po3.jpg" alt="">
         <p  id="leapline">we are helping poor students to crack jee</p>
       </a>
       <br>
