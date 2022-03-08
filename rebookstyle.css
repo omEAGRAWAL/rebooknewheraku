@@ -29,7 +29,7 @@ nav {
 li{
   display: inline;
 
-  font-size: 20px;
+  font-size: 200px;
 
   color:rgb(233, 233, 224) ;
   padding: 3px;}
@@ -65,8 +65,8 @@ width: 90%;
 @media only screen and (min-width: 800px) {
 
 #row1{
-  text-align: center;
-  align-items: center;
+  justify-content: center;
+  
   display: flex;
   flex-direction: row;
 
