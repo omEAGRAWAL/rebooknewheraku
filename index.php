@@ -114,7 +114,7 @@
             </tr>
             <tr>
               <td>Contact Us</td>
-             <a href="rebookpy@gmail.com"></a> <td>rebookpy@gmail.com/td>
+             <a href="rebookpy@gmail.com"></a> <td>rebookpy@gmail.com</td></a>
             </tr>
           </tbody>
         </table>
