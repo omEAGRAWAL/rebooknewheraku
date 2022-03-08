@@ -33,7 +33,7 @@
     <h2>camp1</h2>
       <img id="pic1" src="po1.jpg" alt="">
       <p id="camp1p1" class="image">donate your childs book to them</p>
-        <a class="push_button red" id="button" href="donatebook.html">DONATE BOOK</a>
+        <a class="push_button red" id="button" href="donate.php">DONATE BOOK</a>
       </a>
     </div>
 
@@ -45,7 +45,7 @@
       <h2>camp1</h2>
         <img id="pic1" src="po3.jpg" alt="">
         <p id="camp1p1" class="image">we are helping them to crack jee</p>
-          <a class="push_button red" id="button" href="donatebook.html">DONATE  BOOK</a>
+          <a class="push_button red" id="button" href="donate.php">DONATE  BOOK</a>
         </a>
       </div>
     
@@ -91,7 +91,7 @@
             <a href="camp1.html" style="color: #4f4f4f;">camps</a>
           </li>
           <li class="mb-1">
-            <a href="donatebook.php" style="color: #4f4f4f;"> Donate book</a>
+            <a href="donate.php" style="color: #4f4f4f;"> Donate book</a>
           </li>
           
         </ul>
