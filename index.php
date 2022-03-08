@@ -69,7 +69,7 @@
     <div id="whatudo" class="whatudo">
       <h3 class="h3whatudo">What U Do</h3>
       <p>you will help poor children to get a new bright future</p>
-      <p>your one book will be used atleast 3 years</p>
+      <p>your one book will be used atleast 3 times</p>
     </div>
 
     <footer>
@@ -83,7 +83,9 @@
       <div class="col-lg-6 col-md-12 mb-4">
         <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;"></h5>
         <p>
-         We are on a mission help the poor childrens by used books we wnt to build donating book a habit
+         We are on a mission to help the poor children by donating  used books.
+         <br>
+          we wnt to build donating book a habit .
         </p>
       </div>
       <div style=" display: flex; flex-direction: row ; align-items: center;  ">
@@ -107,8 +109,8 @@
         <table class="table" style="color: #4f4f4f; border-color: #666;">
           <tbody>
             <tr>
-              <td>adress</td>
-              <td>Nit Puduchery ,karaika,puduchery</td>
+              <td>address</td>
+              <td>Nit Puducherry ,karaikal,puduchery</td>
             </tr>
             <tr>
               <td>Contact Us</td>

@@ -29,9 +29,16 @@ nav {
 li{
   display: inline;
 
-  font-size: 2vw;
+  font-size: 20px;
+
   color:rgb(233, 233, 224) ;
   padding: 3px;}
+  @media only screen and (max-width: 400px) {
+li{
+  font-size: 10px;
+
+}}
+
 .active{
   padding: 4px;
   background-color: #04AA6D;
@@ -51,14 +58,15 @@ li{
              /*-------------part1-----------------------------*/
  
 #front1{
-  margin: top 2%;;
+  
 width: 100%;
   }
                       /*-----------------row1---------------*/
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 800px) {
 
 #row1{
   text-align: center;
+  align-items: center;
   display: flex;
   flex-direction: row;
 
@@ -76,6 +84,14 @@ margin: auto;
 margin: 2px;
 text-align: center;
 background-color: rgb(224, 204, 178);
+
+}
+@media only screen and (min-width: 800px) {
+.camp{
+  font-size: 15px;
+
+}
+
 
 }
 .image{
@@ -102,7 +118,7 @@ margin-left: auto;
 .whatudo{
   background-color: rgb(100, 90, 90);
   text-align: center;
-  color: rgb(58, 42, 42);
+  color: rgb(173, 165, 165);
     font-family:cursive;
     font-size: 20px;
 }
