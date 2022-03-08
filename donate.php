@@ -13,9 +13,16 @@
 </head>
 <body>
     <?php
+    
+    require be_dependencies.php;
+    require be.php;
+
         $fnamefor = $lnamefor = $contactfor = $emailfor = $cityfor = $districtfor = $statefor = $pincodefor = "";
         $fname = $lname = $contact = $email = $add_1 = $add_2 = $city = $district = $state = $pincode = $book_type ="";
         $fnameErr = $emailErr = $contactErr = $add_1Err = $districtErr = $stateErr = $pincodeErr = $book_typeErr = "";
+
+        $request = array("Fname"=>$fname, "LNAME"=>$lname, "CONTACT"=>$contact, "EMAIL"=>$email, "ADDL1"=>$add_1, "ADDL2"=>$add_2, "CITY"=>$city, 
+                    "DISTRICT"=>$district, "STATE"=>$state, "PINCODE"=>$pincode, "BOOK_TYPE"=>$book_type);
 
         if($_SERVER["REQUEST_METHOD"]=="POST"){
             if(empty($_POST["fname"])){
@@ -23,8 +30,8 @@
             }else{
                 $fname = test_input($_POST["fname"]);
             }
-            $name = test_input($_POST["fname"]);
-            if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
+            $fname = test_input($_POST["fname"]);
+            if (!preg_match("/^[a-zA-Z-' ]*$/",$fname)) {
                 $fnamefor = "Only letters and white space allowed";
             }
             $lname = test_input($_POST["lname"]);
