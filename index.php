@@ -99,7 +99,7 @@
             <a href="camp1.html" style="color: #4f4f4f;">camps</a>
           </li>
           <li class="mb-1">
-            <a href="donatebook.php" style="color: #4f4f4f;"> Donate book</a>
+            <a href="donatebook.php" style="color: #4f4f4f;"> Donate</a>
           </li>
           
         </ul>
