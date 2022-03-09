@@ -12,6 +12,14 @@ h2{
   margin-top: 0%;
   margin-bottom: 3px;
 }
+h1{
+  background-color: aqua;
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: blue;
+  margin: 0%;
+}
 
 header{
   width: 100%;
@@ -41,13 +49,13 @@ li{
 
 .active{
   padding: 4px;
-  background-color: #04AA6D;
+  background-color: rgb(49, 47, 47);
 }
 .login {
   padding: 4px;
-  color: aliceblue;
+  color: beige;
   float: right;
-  background-color: #04AA6D;
+  background-color: rgb(49, 47, 47;
 }
 .request{
   background-color: rgb(49, 47, 47);
