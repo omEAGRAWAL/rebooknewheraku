@@ -17,10 +17,7 @@
 
 
   <body>
-  <header> 
-      <h1>Rebook</h1>
-  </header>
-
+<header>
   <div id="header_content" class="header">
     <nav>
       <li> <a class="active" href="index.html">
@@ -33,7 +30,7 @@
       <li><a class="request" href="request.php">Request campaign</a>
     </nav>
   </div>
-  
+  </header>
   
   <div class="st1part" id="st1part">
     <img id="front1" src="front1.png" alt="">

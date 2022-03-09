@@ -12,17 +12,10 @@ h2{
   margin-top: 0%;
   margin-bottom: 3px;
 }
-h1{
-  text-align: center;
-}
+
 header{
   width: 100%;
-  position: absolute;
-  text-align: center;
-  background-color: aqua;
-  color: blue;
-  padding: 0;
-  margin: 0;
+  position: fixed;
 }
 nav {
  
@@ -32,8 +25,6 @@ nav {
   overflow:auto;
   background-color: rgb(47, 44, 44);
   font-family: cursive;
-  position: absolute;
-  top: 30px;
 }
 li{
   display: inline;
