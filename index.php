@@ -17,20 +17,19 @@
 
 
   <body>
-<header>
-  <div id="header_content" class="header">
+  <header> 
+      <h1>Rebook</h1>
+    </header>
+
     <nav>
-      <li> <a class="active" href="index.html">
-          <img style="width: 20px;" src="home.png" alt=""></a></li>
-      <li>
+      <div id="header_menu" class="header">
+        <a href="index.php">Home</a>
         <a style="float:right; cursor:pointer"  type="a" class="login" data-toggle="modal" data-target="#myModal">
             LogIn
         </a>
-      </li>
-      <li><a class="request" href="request.php">Request campaign</a>
-    </nav>
-  </div>
-  </header>
+
+        </div>
+    <nav>
   
   <div class="st1part" id="st1part">
     <img id="front1" src="front1.png" alt="">
