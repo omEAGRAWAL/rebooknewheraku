@@ -12,15 +12,6 @@ h2{
   margin-top: 0%;
   margin-bottom: 3px;
 }
-h1{
-  background-color: aqua;
-  display: block;
-  text-align: center;
-  width: 100%;
-  color: blue;
-  margin: 0%;
-}
-
 header{
   width: 100%;
   position: fixed;
