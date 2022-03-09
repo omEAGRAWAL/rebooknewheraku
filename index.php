@@ -48,7 +48,7 @@
 
     <div id="camp1div" class="camp" >
       <a href="leap.html"></a>
-      <h2>camp1</h2>
+      <h2>locale</h2>
         <img id="pic1" src="po3.jpg" alt="">
         <p id="camp1p1" class="image">we are helping them to crack jee</p>
           <a class="push_button red" id="button" href="donatebook.html">DONATE  BOOK</a>
@@ -72,7 +72,7 @@
       <p>your one book will be used atleast 3 times</p>
     </div>
 
-    <footer>
+  
 
 <!-- Remove the container if you want to extend the Footer to full width. -->
 
@@ -83,7 +83,7 @@
       <div class="col-lg-6 col-md-12 mb-4">
         <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;"></h5>
         <p>
-         We are on a mission to help the poor children by donating  used books.
+         We are on a mission to help the poor children by donating used books.
          <br>
           we wnt to build donating book a habit .
         </p>
@@ -99,7 +99,7 @@
             <a href="camp1.html" style="color: #4f4f4f;">camps</a>
           </li>
           <li class="mb-1">
-            <a href="donatebook.php" style="color: #4f4f4f;"> Donate</a>
+            <a href="donate.php" style="color: #4f4f4f;"> Donate</a>
           </li>
           
         </ul>
@@ -123,14 +123,13 @@
     </div>
   </div>
 
-  <!-- Copyright -->
+
 </footer>
 
 </div>
 <!-- End of .container -->
 
 
-    </footer>
    
     <?php require 'validate.php' ?>
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
