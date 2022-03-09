@@ -19,7 +19,6 @@
   <body>
 <header>
   <div id="header_content" class="header">
-    <h1>ReBook</h1>
     <nav>
       <li> <a class="active" href="index.html">
           <img style="width: 20px;" src="home.png" alt=""></a></li>
