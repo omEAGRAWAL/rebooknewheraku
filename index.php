@@ -105,7 +105,7 @@
         </ul>
       </div>
       <div class="col-lg-3 col-md-6 mb-4">
-        <h5 class="mb-1" style="letter-spacing: 2px; color: #818963;">opening hours</h5>
+        <h5 class="mb-1" style="letter-spacing: 2px; color: #818963;"></h5>
         <table class="table" style="color: #4f4f4f; border-color: #666;">
           <tbody>
             <tr>
