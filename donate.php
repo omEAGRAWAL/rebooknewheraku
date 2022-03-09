@@ -14,8 +14,8 @@
 <body>
     <?php
     
-    include be_dependencies.php;
-    include be.php;
+#    include be_dependencies.php;
+#    include be.php;
 
         $fnamefor = $lnamefor = $contactfor = $emailfor = $cityfor = $districtfor = $statefor = $pincodefor = "";
         $fname = $lname = $contact = $email = $add_1 = $add_2 = $city = $district = $state = $pincode = $book_type ="";
