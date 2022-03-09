@@ -23,11 +23,13 @@
 
     <nav>
       <div id="header_menu" class="header">
-        <a href="index.php">Home</a>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="request.php">Request campaign</a></li>
+        <li>
         <a style="float:right; cursor:pointer"  type="a" class="login" data-toggle="modal" data-target="#myModal">
             LogIn
         </a>
-
+        </li>
         </div>
     <nav>
   

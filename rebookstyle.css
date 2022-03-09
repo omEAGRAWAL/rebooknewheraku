@@ -16,6 +16,11 @@ h2{
 header{
   width: 100%;
   position: fixed;
+  color: blue;
+  text-align: center;
+  font-size: 100px;
+  background-color: aqua;
+  margin: 0%;
 }
 nav {
  
