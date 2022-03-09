@@ -94,7 +94,7 @@
       </div>
       <div style=" display: flex; flex-direction: row ; align-items: center;  ">
       <div class="col-lg-3 col-md-6 mb-4" >
-        <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">links</h5>
+        <h5 class="mb-3" style="letter-spacing: 2px; color: #818063;">Links</h5>
         <ul class="list-unstyled mb-0">
           <li class="mb-1">
             <a href="index.php" style="color: #4f4f4f;">home</a>
