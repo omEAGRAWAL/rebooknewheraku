@@ -20,10 +20,10 @@
 <header>
   <div id="header_content" class="header">
     <nav>
-      <li> <a class="active" href="index.html">
+      <li> <a class="active" href="index.php">
           <img style="width: 20px;" src="home.png" alt=""></a></li>
       <li><a class="login" id="login" href="login.html" ; target="_parent">LogIn</a></li>
-      <li><a class="request" href="#book_category">Request campaign</a>
+      <li><a class="request" href="request.php">Request campaign</a>
     </nav>
   </div>
   </header>
@@ -39,7 +39,7 @@
     <h2>camp1</h2>
       <img id="pic1" src="po1.jpg" alt="">
       <p id="camp1p1" class="image">donate your childs book to them</p>
-        <a class="push_button red" id="button" href="donatebook.html">DONATE BOOK</a>
+        <a class="push_button red" id="button" href="donate.php">DONATE BOOK</a>
       </a>
     </div>
 
@@ -51,7 +51,7 @@
       <h2>locale</h2>
         <img id="pic1" src="po3.jpg" alt="">
         <p id="camp1p1" class="image">we are helping them to crack jee</p>
-          <a class="push_button red" id="button" href="donatebook.html">DONATE  BOOK</a>
+          <a class="push_button red" id="button" href="donate.php">DONATE  BOOK</a>
         </a>
       </div>
     
