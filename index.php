@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="rebookstyle.css">
-  <link rel="stylesheet" href="button.css">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ReBook</title>
-</head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="rebookstyle.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
+    <link rel="stylesheet" href="rebookstyle.css">
+    <link rel="stylesheet" href="button.css">
+    <title>ReBook</title>
+  </head>
 
-<body>
+
+  <body>
 <header>
   <div id="header_content" class="header">
     <nav>
@@ -33,19 +39,19 @@
     <h2>camp1</h2>
       <img id="pic1" src="po1.jpg" alt="">
       <p id="camp1p1" class="image">donate your childs book to them</p>
-        <a class="push_button red" id="button" href="donate.php">DONATE BOOK</a>
+        <a class="push_button red" id="button" href="donatebook.html">DONATE BOOK</a>
       </a>
     </div>
 
 
-    
+  
 
     <div id="camp1div" class="camp" >
       <a href="leap.html"></a>
-      <h2>camp1</h2>
+      <h2>locale</h2>
         <img id="pic1" src="po3.jpg" alt="">
         <p id="camp1p1" class="image">we are helping them to crack jee</p>
-          <a class="push_button red" id="button" href="donate.php">DONATE  BOOK</a>
+          <a class="push_button red" id="button" href="donatebook.html">DONATE  BOOK</a>
         </a>
       </div>
     
@@ -63,10 +69,10 @@
     <div id="whatudo" class="whatudo">
       <h3 class="h3whatudo">What U Do</h3>
       <p>you will help poor children to get a new bright future</p>
-      <p>your one book will be used atleast 3 years</p>
+      <p>your one book will be used atleast 3 times</p>
     </div>
 
-    <footer>
+  
 
 <!-- Remove the container if you want to extend the Footer to full width. -->
 
@@ -77,7 +83,9 @@
       <div class="col-lg-6 col-md-12 mb-4">
         <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;"></h5>
         <p>
-         We are on a mission help the poor childrens by used books we want to build donating book a habit
+         We are on a mission to help the poor children by donating used books.
+         <br>
+          we wnt to build donating book a habit .
         </p>
       </div>
       <div style=" display: flex; flex-direction: row ; align-items: center;  ">
@@ -91,22 +99,22 @@
             <a href="camp1.html" style="color: #4f4f4f;">camps</a>
           </li>
           <li class="mb-1">
-            <a href="donate.php" style="color: #4f4f4f;"> Donate book</a>
+            <a href="donate.php" style="color: #4f4f4f;"> Donate</a>
           </li>
           
         </ul>
       </div>
       <div class="col-lg-3 col-md-6 mb-4">
-        <h5 class="mb-1" style="letter-spacing: 2px; color: #818963;">opening hours</h5>
+        <h5 class="mb-1" style="letter-spacing: 2px; color: #818963;"></h5>
         <table class="table" style="color: #4f4f4f; border-color: #666;">
           <tbody>
             <tr>
               <td>address</td>
-              <td>NIT Puducherry ,karaikal,puducherry</td>
+              <td>Nit Puducherry ,karaikal,puduchery</td>
             </tr>
             <tr>
               <td>Contact Us</td>
-             <a href="rebookpy@gmail.com"></a> <td>rebookpy@gmail.com</td>
+             <td><a href="rebookpy@gmail.com"> rebookpy@gmail.com</a></td>
             </tr>
           </tbody>
         </table>
@@ -115,15 +123,45 @@
     </div>
   </div>
 
-  <!-- Copyright -->
+
 </footer>
 
 </div>
 <!-- End of .container -->
 
 
-    </footer>
    
-</body>
+    <?php require 'validate.php' ?>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content clearfix">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              <div class="modal-body">
+                  <h3 class="title">Login Form</h3>
+                  <p class="description">Login here Using Email & Password</p>
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+                  <div class="form-group">
+                      <span class="input-icon"><i class="fa fa-user"></i></span>
+                      <input type="email" class="form-control" placeholder="Enter email" name="email">
+                  </div>
+                  <div class="form-group">
+                      <span class="input-icon"><i class="fas fa-key"></i></span>
+                      <input type="password" class="form-control" placeholder="Password">
+                  </div>
+                  <div class="form-group checkbox">
+                      <input type="checkbox">
+                      <label>Remember me</label>
+                  </div>
+                  <a href="" class="forgot-pass">Forgot Password?</a>
+                  <button class="btn">Login</button>
+                </form>
+                  <a class="sign_up" href="#">sign up</a>
+              </div>
+          </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </body>
 
 </html>

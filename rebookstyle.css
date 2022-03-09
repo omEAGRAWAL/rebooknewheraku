@@ -29,9 +29,16 @@ nav {
 li{
   display: inline;
 
-  font-size: 2vw;
+  font-size: 20px;
+
   color:rgb(233, 233, 224) ;
   padding: 3px;}
+  @media only screen and (max-width: 400px) {
+li{
+  font-size: 10px;
+
+}}
+
 .active{
   padding: 4px;
   background-color: #04AA6D;
@@ -43,7 +50,7 @@ li{
   background-color: #04AA6D;
 }
 .request{
-  background-color: rgb(82, 79, 79);
+  background-color: rgb(49, 47, 47);
   color: beige;
   padding: 4px;
   float: right;
@@ -51,14 +58,15 @@ li{
              /*-------------part1-----------------------------*/
  
 #front1{
-  margin: top 2%;;
+  
 width: 100%;
   }
                       /*-----------------row1---------------*/
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 800px) {
 
 #row1{
-  text-align: center;
+  justify-content: center;
+  
   display: flex;
   flex-direction: row;
 
@@ -72,11 +80,21 @@ font-size: 25px;
 border-style:calc();
 padding: 5px;
 border-width: 1px;
-margin: auto;
+margin-left: auto;
+margin-right: auto;
+margin: 2px;
 text-align: center;
-background-color: antiquewhite;
+background-color: rgb(224, 204, 178);
 
 }
+@media only screen and (max-width: 800px) {
+.camp{
+  font-size: 15px;
+
+}}
+
+
+
 .image{
 height: auto;
 }
@@ -99,10 +117,10 @@ margin-left: auto;
 }
 
 .whatudo{
-  background-color: rgb(100, 90, 90);
+  background-color: rgb(255, 255, 255);
   text-align: center;
-  color: rgb(248, 248, 248);
-    font-family:cursive;
+ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
 

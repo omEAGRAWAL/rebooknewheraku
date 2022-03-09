@@ -139,7 +139,7 @@
         
         <input type="submit" name="submit" value="Submit">
     </form>
-    <?php
+    <!--<?php
     echo "<h2>Your Input</h2>";
     echo $fname;
     echo "<br>";
@@ -165,6 +165,6 @@
     echo "<br>";
     echo "DATE: " . date("Y/m/d") . "<br>";
     echo "Day: " . date("l") . "<br>";
-    ?>
+    ?>-->
 </body>
 </html>
