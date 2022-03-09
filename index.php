@@ -20,13 +20,9 @@
 <header>
   <div id="header_content" class="header">
     <nav>
-      <li> <a class="active" href="index.html">
+      <li> <a class="active" href="index.php">
           <img style="width: 20px;" src="home.png" alt=""></a></li>
-      <li>
-        <a style="float:right; cursor:pointer"  type="a" class="login" data-toggle="modal" data-target="#myModal">
-            LogIn
-        </a>
-      </li>
+      <li><a class="login" id="login" href="login.html" ; target="_parent">LogIn</a></li>
       <li><a class="request" href="request.php">Request campaign</a>
     </nav>
   </div>
@@ -39,7 +35,7 @@
 <div id="row1">
 
   <div id="camp1div" class="camp" >
-    <a href="camp1.html"></a>
+    <a href="camp1.html">
     <h2>camp1</h2>
       <img id="pic1" src="po1.jpg" alt="">
       <p id="camp1p1" class="image">donate your childs book to them</p>
@@ -51,8 +47,8 @@
   
 
     <div id="camp1div" class="camp" >
-      <a href="leap.html"></a>
-      <h2>locale</h2>
+      <a href="leap.html">
+      <h2>Leap</h2>
         <img id="pic1" src="po3.jpg" alt="">
         <p id="camp1p1" class="image">we are helping them to crack jee</p>
           <a class="push_button red" id="button" href="donate.php">DONATE  BOOK</a>
@@ -67,7 +63,7 @@
     <solid>NGO</solid>under one plateform</p>
 
   <p>we are on a mission to help poor childrem with the source of knowledge</p>
-  <p> REUSE of books will reduce the deforastation and leaving lesser carbon footprints</p>
+  <p> REUSE of books will reduce the deforastation and carbon emmision</p>
 </div>
     
     <div id="whatudo" class="whatudo">
@@ -89,12 +85,12 @@
         <p>
          We are on a mission to help the poor children by donating used books.
          <br>
-          we want to build donating book a habit .
+          we wnt to build donating book a habit .
         </p>
       </div>
       <div style=" display: flex; flex-direction: row ; align-items: center;  ">
       <div class="col-lg-3 col-md-6 mb-4" >
-        <h5 class="mb-3" style="letter-spacing: 2px; color: #818063;">Links</h5>
+        <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">links</h5>
         <ul class="list-unstyled mb-0">
           <li class="mb-1">
             <a href="index.php" style="color: #4f4f4f;">home</a>
@@ -113,8 +109,8 @@
         <table class="table" style="color: #4f4f4f; border-color: #666;">
           <tbody>
             <tr>
-              <td>Address</td>
-              <td>Nit Puducherry, Karaikal, Puduchery</td>
+              <td>address</td>
+              <td>Nit Puducherry ,karaikal,puduchery</td>
             </tr>
             <tr>
               <td>Contact Us</td>
