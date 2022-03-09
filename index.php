@@ -48,7 +48,7 @@
 
     <div id="camp1div" class="camp" >
       <a href="leap.html">
-      <h2>locale</h2>
+      <h2>Leap</h2>
         <img id="pic1" src="po3.jpg" alt="">
         <p id="camp1p1" class="image">we are helping them to crack jee</p>
           <a class="push_button red" id="button" href="donate.php">DONATE  BOOK</a>
