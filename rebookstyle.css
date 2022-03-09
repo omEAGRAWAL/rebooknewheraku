@@ -41,13 +41,13 @@ li{
 
 .active{
   padding: 4px;
-  background-color: #04AA6D;
+  background-color: rgb(49, 47, 47);
 }
 .login {
   padding: 4px;
   color: aliceblue;
   float: right;
-  background-color: #04AA6D;
+  background-color: rgb(49, 47, 47);
 }
 .request{
   background-color: rgb(49, 47, 47);
