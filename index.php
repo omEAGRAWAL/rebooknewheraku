@@ -44,7 +44,7 @@
     </div>
 
 
-    <div id="row1"></div>
+  
 
     <div id="camp1div" class="camp" >
       <a href="leap.html"></a>
@@ -99,13 +99,13 @@
             <a href="camp1.html" style="color: #4f4f4f;">camps</a>
           </li>
           <li class="mb-1">
-            <a href="donatebook.php" style="color: #4f4f4f;"> Donate book</a>
+            <a href="donatebook.php" style="color: #4f4f4f;"> Donate</a>
           </li>
           
         </ul>
       </div>
       <div class="col-lg-3 col-md-6 mb-4">
-        <h5 class="mb-1" style="letter-spacing: 2px; color: #818963;">opening hours</h5>
+        <h5 class="mb-1" style="letter-spacing: 2px; color: #818963;"></h5>
         <table class="table" style="color: #4f4f4f; border-color: #666;">
           <tbody>
             <tr>
@@ -114,7 +114,7 @@
             </tr>
             <tr>
               <td>Contact Us</td>
-             <a href="rebookpy@gmail.com"></a> <td>rebookpy@gmail.com/td>
+             <td><a href="rebookpy@gmail.com"> rebookpy@gmail.com</a></td>
             </tr>
           </tbody>
         </table>
