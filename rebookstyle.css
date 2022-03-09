@@ -12,15 +12,19 @@ h2{
   margin-top: 0%;
   margin-bottom: 3px;
 }
+h1{
+  background-color: aqua;
+  display: block;
+  text-align: center;
+  font-size: 100px;
+  color: blue;
+  margin: 0%;
+  float: left;
+}
 
 header{
   width: 100%;
   position: fixed;
-  color: blue;
-  text-align: center;
-  font-size: 100px;
-  background-color: aqua;
-  margin: 0%;
 }
 nav {
  
