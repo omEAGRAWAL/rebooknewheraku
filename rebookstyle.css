@@ -22,6 +22,8 @@ header{
   text-align: center;
   background-color: aqua;
   color: blue;
+  padding: 0;
+  margin: 0;
 }
 nav {
  
