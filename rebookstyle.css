@@ -15,7 +15,9 @@ h2{
 
 header{
   width: 100%;
-  position: fixed;
+  position: absolute;
+  display: block;
+  text-align: center;
   background-color: aqua;
   color: blue;
 }
