@@ -19,15 +19,10 @@
   <body>
 <header>
   <div id="header_content" class="header">
-    <h1>ReBook</h1>
     <nav>
       <li> <a class="active" href="index.php">
           <img style="width: 20px;" src="home.png" alt=""></a></li>
-      <li>
-        <a style="float:right; cursor:pointer"  type="a" class="login" data-toggle="modal" data-target="#myModal">
-            LogIn
-        </a>
-      </li>
+      <li><a class="login" id="login" href="login.html" ; target="_parent">LogIn</a></li>
       <li><a class="request" href="request.php">Request campaign</a>
     </nav>
   </div>
@@ -68,7 +63,7 @@
     <solid>NGO</solid>under one plateform</p>
 
   <p>we are on a mission to help poor childrem with the source of knowledge</p>
-  <p> REUSE of books will reduce the deforastation and lesser carbon footprints</p>
+  <p> REUSE of books will reduce the deforastation and carbon emmision</p>
 </div>
     
     <div id="whatudo" class="whatudo">
@@ -90,7 +85,7 @@
         <p>
          We are on a mission to help the poor children by donating used books.
          <br>
-          We want to build donating book a habit .
+          we wnt to build donating book a habit .
         </p>
       </div>
       <div style=" display: flex; flex-direction: row ; align-items: center;  ">
@@ -98,10 +93,10 @@
         <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">links</h5>
         <ul class="list-unstyled mb-0">
           <li class="mb-1">
-            <a href="index.php" style="color: #4f4f4f;">Home</a>
+            <a href="index.php" style="color: #4f4f4f;">home</a>
           </li>
           <li class="mb-1">
-            <a href="camp1.html" style="color: #4f4f4f;">Camps</a>
+            <a href="camp1.html" style="color: #4f4f4f;">camps</a>
           </li>
           <li class="mb-1">
             <a href="donate.php" style="color: #4f4f4f;"> Donate</a>
@@ -115,7 +110,7 @@
           <tbody>
             <tr>
               <td>address</td>
-              <td>Nit Puducherry, Karaikal, Puduchery</td>
+              <td>Nit Puducherry ,karaikal,puduchery</td>
             </tr>
             <tr>
               <td>Contact Us</td>

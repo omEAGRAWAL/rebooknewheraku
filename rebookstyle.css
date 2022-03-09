@@ -12,14 +12,6 @@ h2{
   margin-top: 0%;
   margin-bottom: 3px;
 }
-h1{
-  background-color: aqua;
-  display: block;
-  text-align: center;
-  width: 100%;
-  color: blue;
-  margin: 0%;
-}
 
 header{
   width: 100%;
@@ -36,7 +28,10 @@ nav {
 }
 li{
   display: inline;
+
   font-size: 20px;
+
+  color:rgb(233, 233, 224) ;
   padding: 3px;}
   @media only screen and (max-width: 400px) {
 li{
@@ -46,13 +41,13 @@ li{
 
 .active{
   padding: 4px;
-  background-color: rgb(49, 47, 47);
+  background-color: #04AA6D;
 }
 .login {
   padding: 4px;
-  color: beige;
+  color: aliceblue;
   float: right;
-  background-color: rgb(49, 47, 47;
+  background-color: #04AA6D;
 }
 .request{
   background-color: rgb(49, 47, 47);
