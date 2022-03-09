@@ -14,15 +14,15 @@
 <body>
     <?php
     
-    include be_dependencies.php;
-    include be.php;
+#    include be_dependencies.php;
+#    include be.php;
 
         $fnamefor = $lnamefor = $contactfor = $emailfor = $cityfor = $districtfor = $statefor = $pincodefor = "";
         $fname = $lname = $contact = $email = $add_1 = $add_2 = $city = $district = $state = $pincode = $book_type ="";
         $fnameErr = $emailErr = $contactErr = $add_1Err = $districtErr = $stateErr = $pincodeErr = $book_typeErr = "";
 
-       $request = array("Fname"=>$fname, "LNAME"=>$lname, "CONTACT"=>$contact, "EMAIL"=>$email, "ADDL1"=>$add_1, "ADDL2"=>$add_2, "CITY"=>$city, 
-                   "DISTRICT"=>$district, "STATE"=>$state, "PINCODE"=>$pincode, "BOOK_TYPE"=>$book_type);
+#       $request = array("Fname"=>$fname, "LNAME"=>$lname, "CONTACT"=>$contact, "EMAIL"=>$email, "ADDL1"=>$add_1, "ADDL2"=>$add_2, "CITY"=>$city, 
+#                   "DISTRICT"=>$district, "STATE"=>$state, "PINCODE"=>$pincode, "BOOK_TYPE"=>$book_type);
 
         if($_SERVER["REQUEST_METHOD"]=="POST"){
             if(empty($_POST["fname"])){
