@@ -31,6 +31,8 @@ nav {
   overflow:auto;
   background-color: rgb(47, 44, 44);
   font-family: cursive;
+  position: absolute;
+  top: 10px;
 }
 li{
   display: inline;
