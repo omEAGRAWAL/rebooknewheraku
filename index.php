@@ -67,7 +67,7 @@
     <solid>NGO</solid>under one plateform</p>
 
   <p>we are on a mission to help poor childrem with the source of knowledge</p>
-  <p> REUSE of books will reduce the deforastation and carbon emmision</p>
+  <p> REUSE of books will reduce the deforastation and leaving lesser carbon footprints</p>
 </div>
     
     <div id="whatudo" class="whatudo">
