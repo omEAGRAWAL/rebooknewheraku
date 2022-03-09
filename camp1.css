@@ -1,6 +1,48 @@
 body{
     background-color: #FFF1F1;
 }
+header{
+    width: 100%;
+    position: fixed;
+  }
+  nav {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    background-color: rgb(47, 44, 44);
+    font-family: cursive;
+  }
+  li{
+    display: inline;
+  
+    font-size: 20px;
+  
+    color:rgb(233, 233, 224) ;
+    padding: 3px;}
+    @media only screen and (max-width: 400px) {
+  li{
+    font-size: 10px;
+  
+  }}
+  
+  .active{
+    padding: 4px;
+    background-color: #04AA6D;
+  }
+  .login {
+    padding: 4px;
+    color: aliceblue;
+    float: right;
+    background-color: #04AA6D;
+  }
+  .request{
+    background-color: rgb(49, 47, 47);
+    color: beige;
+    padding: 4px;
+    float: right;
+  }
 
 h1{
     font-size: 40px;
@@ -77,50 +119,6 @@ img {
 }
 
 
-footer{
-    margin-top: 12px;
-    padding: 12px 0px 6px 12px;
-    background-color: #361428e5;
-}
-
-
-.footerbox{
-
-    list-style-type: none;
-    text-align: center;
-}
-.footerbox a{
-    color: #FFF1F1;
-    margin: 0px;
-    padding: 16px 0 16px 0px;
-
-}
-
-.footerbox li{
-
-    display: inline-block;
-    padding: 16px 32px 16px 32px;
-}
-
-
-
-.footer-text{
-    color: rgb(212, 230, 255);
-    font-size: 24px;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-    .img-row{
-        width: 90%;
-        margin-top: 0.75%;
-    }
-    .first1{
-        width: 100%;
-        object-fit: cover;
-    }
-}
 
 @media only screen and (min-width: 601px) {
 
