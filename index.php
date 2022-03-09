@@ -35,7 +35,7 @@
 <div id="row1">
 
   <div id="camp1div" class="camp" >
-    <a href="camp1.html"></a>
+    <a href="camp1.html">
     <h2>camp1</h2>
       <img id="pic1" src="po1.jpg" alt="">
       <p id="camp1p1" class="image">donate your childs book to them</p>
@@ -47,7 +47,7 @@
   
 
     <div id="camp1div" class="camp" >
-      <a href="leap.html"></a>
+      <a href="leap.html">
       <h2>locale</h2>
         <img id="pic1" src="po3.jpg" alt="">
         <p id="camp1p1" class="image">we are helping them to crack jee</p>
@@ -99,7 +99,7 @@
             <a href="camp1.html" style="color: #4f4f4f;">camps</a>
           </li>
           <li class="mb-1">
-            <a href="donatebook.php" style="color: #4f4f4f;"> Donate</a>
+            <a href="donate.php" style="color: #4f4f4f;"> Donate</a>
           </li>
           
         </ul>
