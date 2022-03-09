@@ -89,7 +89,7 @@
         <p>
          We are on a mission to help the poor children by donating used books.
          <br>
-          we wnt to build donating book a habit .
+          we want to build donating book a habit .
         </p>
       </div>
       <div style=" display: flex; flex-direction: row ; align-items: center;  ">
@@ -113,8 +113,8 @@
         <table class="table" style="color: #4f4f4f; border-color: #666;">
           <tbody>
             <tr>
-              <td>address</td>
-              <td>Nit Puducherry ,karaikal,puduchery</td>
+              <td>Address</td>
+              <td>Nit Puducherry, Karaikal, Puduchery</td>
             </tr>
             <tr>
               <td>Contact Us</td>
