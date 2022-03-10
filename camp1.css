@@ -73,6 +73,11 @@ header{
 .moni{
     text-align: center;
 }
+
+.first1 {
+    height: 650px;
+}
+
 .parabox{
     display: flex;
     flex-direction: column;
