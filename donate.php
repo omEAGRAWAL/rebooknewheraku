@@ -98,7 +98,7 @@
     
     ?>
     <div class="container">
-    <form style="text-align: center;" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <label for="fname">First name</label>
         <span class="error">* <?php echo $fnameErr; echo $fnamefor?></span><br>
         <input type="text" id="fname" name="fname" value="<?php echo $fname;?>"><br>
