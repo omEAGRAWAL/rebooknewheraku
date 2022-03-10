@@ -7,9 +7,8 @@
     <title>Document</title>
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <style>
-        .error{color: #ff0000;}
-    </style>
+    <link rel="stylesheet" href="donationbook.css">
+    
 </head>
 <body>
     <?php
@@ -98,6 +97,7 @@
         }
     
     ?>
+    <div class="container">
     <form style="text-align: center;" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <label for="fname">First name</label>
         <span class="error">* <?php echo $fnameErr; echo $fnamefor?></span><br>
@@ -140,6 +140,7 @@
         
         <input type="submit" name="submit" value="Submit">
     </form>
+    </div>
    <!--<?php
 #   echo "<h2>Your Input</h2>";
 #   echo $fname;
