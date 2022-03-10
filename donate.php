@@ -8,9 +8,7 @@
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="donationbook.css">
-    <style>
-        .error{color: #ff0000;}
-    </style>
+    <link rel="stylesheet" href="donationbook.css">
 </head>
 <body>
     <?php
@@ -141,31 +139,31 @@
         <input type="submit" name="submit" value="Submit">
     </form>
     <!--<?php
-    echo "<h2>Your Input</h2>";
-    echo $fname;
-    echo "<br>";
-    echo $lname;
-    echo "<br>";
-    echo $contact;
-    echo "<br>";
-    echo $email;
-    echo "<br>";
-    echo $add_1;
-    echo "<br>";
-    echo $add_2;
-    echo "<br>";
-    echo $city;
-    echo "<br>";
-    echo $district;
-    echo "<br>";
-    echo $state;
-    echo "<br>";
-    echo $pincode;
-    echo "<br>";
-    echo $book_type;
-    echo "<br>";
-    echo "DATE: " . date("Y/m/d") . "<br>";
-    echo "Day: " . date("l") . "<br>";
+#    echo "<h2>Your Input</h2>";
+#    echo $fname;
+#    echo "<br>";
+#    echo $lname;
+#    echo "<br>";
+#    echo $contact;
+#    echo "<br>";
+#    echo $email;
+#    echo "<br>";
+#    echo $add_1;
+#    echo "<br>";
+#    echo $add_2;
+#    echo "<br>";
+#    echo $city;
+#    echo "<br>";
+#    echo $district;
+#    echo "<br>";
+#    echo $state;
+#    echo "<br>";
+#    echo $pincode;
+#    echo "<br>";
+#    echo $book_type;
+#    echo "<br>";
+#    echo "DATE: " . date("Y/m/d") . "<br>";
+#    echo "Day: " . date("l") . "<br>";
     ?>-->
 </body>
 </html>
