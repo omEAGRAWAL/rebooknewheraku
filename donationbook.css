@@ -28,13 +28,15 @@ h1{
   }
 /* Style the submit button */
   input[type=submit] {
-    background-color: #d9cfdb;
-    color: #82069b;
+    background-color: #82069b;
+    color: #000000;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     float: right;
+    position: relative;
+    bottom: 10px;
   }
 /* Style the container */
   .container {
