@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="donationbook.css">
     <style>
         .error{color: #ff0000;}
     </style>
